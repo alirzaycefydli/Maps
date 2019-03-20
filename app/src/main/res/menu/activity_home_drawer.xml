@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ic_explore"
+            android:icon="@drawable/ic_explore"
+            android:title="Find Friends" />
+
+        <item
+            android:id="@+id/ic_add_friends"
+            android:icon="@drawable/ic_add_friends"
+            android:title="Friend Requests" />
+
+    </group>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/ic_exit"
+                android:icon="@drawable/ic_exit"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>
